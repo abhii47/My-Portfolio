@@ -1,8 +1,8 @@
-                                                 🧑‍💻 Abhi Rajpurohit — Portfolio Website 
+                                  🧑‍💻 Abhi Rajpurohit — Portfolio Website 
 
 Welcome to the official repository of **my personal portfolio website**, built to showcase my projects, skills, certifications, and journey as a frontend developer.
 
-                                                              🚀 Tech Stack
+                                            🚀 Tech Stack
 
 - **Frontend:** React.js, Tailwind CSS
 - **Deployment:** Vercel
@@ -10,7 +10,7 @@ Welcome to the official repository of **my personal portfolio website**, built t
 - **Version Control:** Git & GitHub
 
 
-                                                            🧠 Features
+                                            🧠 Features
 
 - ✨ Smooth, responsive UI
 - 🧩 Projects gallery with live demos and GitHub links
