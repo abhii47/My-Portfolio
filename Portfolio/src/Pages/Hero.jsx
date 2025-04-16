@@ -8,12 +8,12 @@ const Hero = () => {
         Hi, I'm <span className="text-sky-400">Abhi Rajpurohit</span>
       </h1>
       <h2 className="text-xl md:text-2xl text-slate-300 mb-6">
-        Frontend Developer | MCA Student | UI/UX Explorer
+        Frontend Developer | MCA Student | Web Developer
       </h2>
 
       <div className="flex gap-4 mb-6">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/abhii47"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-sky-400 text-2xl"
@@ -21,7 +21,7 @@ const Hero = () => {
           <FaGithub />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://linkedin.com/in/abhishek-singh-rajpurohit"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-sky-400 text-2xl"
@@ -29,13 +29,15 @@ const Hero = () => {
           <FaLinkedin />
         </a>
         <a
-          href="mailto:youremail@example.com"
+          href="mailto:abhishekrajpurohit@gmail.com"
           className="text-white hover:text-sky-400 text-2xl"
         >
           <FaEnvelope />
         </a>
       </div>
 
+
+{/* download my resume Button Created */}
       <div className="flex gap-4">
         <a
           href="/Abhi_Raj_Resume.pdf"
@@ -44,6 +46,8 @@ const Hero = () => {
         >
           Download Resume
         </a>
+
+{/* contact button created here */}
         <a
           href="#contact"
           className="border border-white px-6 py-2 rounded-full text-white hover:bg-white hover:text-slate-900 transition"
