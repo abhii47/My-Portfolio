@@ -2,22 +2,22 @@ import React from 'react';
 
 const certifications = [
   {
-    title: 'Java Programming',
-    issuer: 'Coding Ninjas',
-    link: 'https://certificates.codingninjas.com/your-java-cert',
-    date: 'Aug 2023',
+    title: 'Java Servlet Basics and JSP 101',
+    issuer: 'Simplilearn',
+    link: 'https://simpli-web.app.link/e/NZQ9ccKACSb',
+    date: '!5 Feb 2025',
   },
   {
-    title: 'Data Structures & Algorithms',
-    issuer: 'Coding Ninjas',
-    link: 'https://certificates.codingninjas.com/your-dsa-cert',
-    date: 'Sept 2023',
+    title: 'Introduction to Selenium',
+    issuer: 'Simplilearn',
+    link: 'https://simpli-web.app.link/e/H7NRFCWACSb',
+    date: '5 April 2025',
   },
   {
-    title: 'Web Technologies',
-    issuer: 'Great Learning',
-    link: 'https://verify.mygreatlearning.com/your-web-cert',
-    date: 'Nov 2023',
+    title: 'Information Technology Specialist in HTML and CSS',
+    issuer: 'Certiport',
+    link: 'https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&format=pdf&id=468&psize=1',
+    date: '24 March 2025',
   },
 ];
 
