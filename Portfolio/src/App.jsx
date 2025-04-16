@@ -2,7 +2,10 @@ import React from 'react'
 import Hero from './Pages/Hero'
 import About from './Pages/About'
 import Skills from './Pages/Skills'
-// import Projects from './pages/Projects'
+import Projects from './Pages/Projects'
+import Certifications from './Pages/Certifications'
+import Education from './Pages/Education'
+
 
 // import Contact from './pages/Contact'
 
@@ -12,7 +15,9 @@ const App = () => {
       <Hero />
       <About />
       <Skills />
-      {/* <Projects /> */}
+      <Projects />
+      <Certifications />
+      <Education />
       {/* <Contact /> */}
       {/* <Footer /> */}
     </div>
