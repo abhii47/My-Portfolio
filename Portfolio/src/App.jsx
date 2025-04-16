@@ -5,6 +5,7 @@ import Skills from './Pages/Skills'
 import Projects from './Pages/Projects'
 import Certifications from './Pages/Certifications'
 import Education from './Pages/Education'
+import Contact from './Pages/Contact'
 
 
 // import Contact from './pages/Contact'
@@ -18,7 +19,7 @@ const App = () => {
       <Projects />
       <Certifications />
       <Education />
-      {/* <Contact /> */}
+      <Contact />
       {/* <Footer /> */}
     </div>
   )
