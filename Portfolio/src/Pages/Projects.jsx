@@ -7,7 +7,7 @@ const projects = [
       'An e-commerce website for sneakers, built with React.js and Tailwind CSS. Features responsive UI, product listings.',
     live: 'https://kickcraze-abhi.netlify.app/',
     code: 'https://github.com/abhii47/KickCraze',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_sSaWGjKfR_e94-u9R9Yit5vJ76IaNkRKvw&s'// Add this image to your public/assets folder
+    image: '/assets/kickcraze.png'// Add this image to your public/assets folder
   },
   {
     title: 'Anime_cast',
@@ -15,7 +15,7 @@ const projects = [
       'An anime Character Details concept site using HTML, CSS, and JavaScript. Includes genre filters and a smooth interface.',
     live: 'https://anime-cast.netlify.app/',
     code: 'https://github.com/abhii47/Anime_cast',
-    image: 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/muichiro-tokito-in-front-of-hashira-demon-slayer.jpg', // Add this image to your public/assets folder
+    image: '/assets/animecast.png', // Add this image to your public/assets folder
   },
 ];
 
