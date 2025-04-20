@@ -1,23 +1,5 @@
 import React from 'react';
-
-const projects = [
-  {
-    title: 'KickCraze',
-    description:
-      'An e-commerce website for sneakers, built with React.js and Tailwind CSS. Features responsive UI, product listings.',
-    live: 'https://kickcraze-abhi.netlify.app/',
-    code: 'https://github.com/abhii47/KickCraze',
-    image: '/assets/kickcraze.png'// Add this image to your public/assets folder
-  },
-  {
-    title: 'Anime_cast',
-    description:
-      'An anime Character Details concept site using HTML, CSS, and JavaScript. Includes genre filters and a smooth interface.',
-    live: 'https://anime-cast.netlify.app/',
-    code: 'https://github.com/abhii47/Anime_cast',
-    image: '/assets/animecast.png', // Add this image to your public/assets folder
-  },
-];
+import projects from '../Data/userData';
 
 const Projects = () => {
   return (
@@ -30,14 +12,21 @@ const Projects = () => {
             <div key={index} className="bg-slate-900 rounded-xl shadow-md overflow-hidden hover:scale-[1.02] transition-transform">
               <img src={project.image} alt={project.title} className="w-full h-56 object-cover" />
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-2 text-white">{project.title}</h3>
+                <h3 
+                  className="text-2xl font-semibold mb-2 text-white"> {project.title} 
+                  <span 
+                  className='px-2' >
+                    {project.active ? (<span className='badge badge-soft badge-secondary'>On Process</span>) : 
+                    (<span className='badge badge-soft badge-success'>Completed</span>) }
+                  </span>
+                </h3>
                 <p className="text-slate-300 mb-4">{project.description}</p>
-                <div className="flex gap-4">
+                <div className="flex gap-4 text-white">
                   <a
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-sky-500 text-white px-4 py-2 rounded hover:bg-sky-600 transition"
+                    className="bg-white text-white px-4 py-2 rounded hover:bg-transparent hover:border hover:border-white transition"
                   >
                     Live Demo
                   </a>
@@ -49,6 +38,13 @@ const Projects = () => {
                   >
                     GitHub
                   </a>
+                </div>
+                <div className="languages mt-8">
+                    <ul className="flex gap-2 text-slate-300 flex-wrap">
+                      {project.languages.map((language, index) => (
+                        <li key={index} className='bg-sky-900 px-4 py-2 text-nowrap rounded-md text-white'>{language}</li>
+                        ))}
+                    </ul>
                 </div>
               </div>
             </div>
