@@ -51,3 +51,5 @@ export const certifications = [
       date: '24 March 2025',
     },
   ];
+
+  export default userData
