@@ -52,4 +52,4 @@ export const certifications = [
     },
   ];
 
-  export default userData
+  export default projects
