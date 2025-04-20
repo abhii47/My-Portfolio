@@ -1,25 +1,5 @@
 import React from 'react';
-
-const certifications = [
-  {
-    title: 'Java Servlet Basics and JSP 101',
-    issuer: 'Simplilearn',
-    link: 'https://simpli-web.app.link/e/NZQ9ccKACSb',
-    date: '!5 Feb 2025',
-  },
-  {
-    title: 'Introduction to Selenium',
-    issuer: 'Simplilearn',
-    link: 'https://simpli-web.app.link/e/H7NRFCWACSb',
-    date: '5 April 2025',
-  },
-  {
-    title: 'Information Technology Specialist in HTML and CSS',
-    issuer: 'Certiport',
-    link: 'https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&format=pdf&id=468&psize=1',
-    date: '24 March 2025',
-  },
-];
+import { certifications } from '../Data/userData';
 
 const Certifications = () => {
   return (
