@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import ReactTypingEffect from 'react-typing-effect';
 
 const Hero = () => {
   return (
@@ -9,6 +10,23 @@ const Hero = () => {
       </h1>
       <h2 className="text-xl md:text-2xl text-slate-300 mb-6">
         Frontend Developer | MCA Student | Web Developer
+
+        {/* it is use to add typing effect on text */}
+
+        {/* <ReactTypingEffect>
+          text={[
+              'Frontend Developer',
+              'MCA Student',
+              'Web Developer',
+          ]}
+          speed={100}
+          eraseSpeed={50}
+          typingDelay={500}
+          eraseDelay={2000}
+          cursorRenderer={(cursor)=>(
+            <span className='text-sky-400'>{cursor}</span>
+          )}
+        </ReactTypingEffect> */}
       </h2>
 
       <div className="flex gap-4 mb-6">
