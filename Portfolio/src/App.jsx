@@ -8,8 +8,6 @@ import Education from './Pages/Education'
 import Contact from './Pages/Contact'
 
 
-// import Contact from './pages/Contact'
-
 const App = () => {
   return (
     <div className="bg-slate-900 text-white font-sans w-screen">
@@ -20,7 +18,6 @@ const App = () => {
       <Certifications />
       <Education />
       <Contact />
-      {/* <Footer /> */}
     </div>
   )
 }
