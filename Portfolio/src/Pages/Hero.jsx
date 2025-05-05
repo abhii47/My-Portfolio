@@ -59,7 +59,7 @@ const Hero = () => {
       <div className="flex gap-4">
         <a
           href="/assets/Frontend-resume-abhishek.pdf"
-          className="bg-sky-500 text-white px-6 py-2 rounded-full hover:bg-sky-600 transition"
+          className="bg-sky-300 text-white px-6 py-2 rounded-full hover:bg-sky-200 transition"
           download
         >
           Download Resume
