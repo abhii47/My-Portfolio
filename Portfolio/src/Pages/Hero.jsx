@@ -58,7 +58,7 @@ const Hero = () => {
 {/* download my resume Button Created */}
       <div className="flex gap-4">
         <a
-          href="/Abhi_Raj_Resume.pdf"
+          href="/assets/Frontend-resume-abhishek.pdf"
           className="bg-sky-500 text-white px-6 py-2 rounded-full hover:bg-sky-600 transition"
           download
         >
