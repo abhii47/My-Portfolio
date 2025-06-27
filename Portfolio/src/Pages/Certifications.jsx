@@ -6,7 +6,7 @@ const Certifications = () => {
     <section id="certifications" className="py-16 bg-slate-900 text-white px-6 md:px-20">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold text-sky-400 mb-10 text-center">Certifications</h2>
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-3">
           {certifications.map((cert, index) => (
             <div key={index} className="bg-slate-800 p-6 rounded-xl shadow-md hover:scale-[1.02] transition-transform">
               <h3 className="text-2xl font-semibold text-white">{cert.title}</h3>

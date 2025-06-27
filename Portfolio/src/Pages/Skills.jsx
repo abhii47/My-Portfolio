@@ -4,18 +4,19 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaJava, FaBootstrap } from
 import { SiTailwindcss, SiMysql, SiExpress, SiMongodb, SiNextdotjs } from 'react-icons/si';
 
 const skills = [
+  { name: 'Java', icon: <FaJava className="text-red-500" /> },
   { name: 'HTML5', icon: <FaHtml5 className="text-orange-500" /> },
   { name: 'CSS3', icon: <FaCss3Alt className="text-blue-500" /> },
+  { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-sky-300" /> },
+  { name: 'Bootstrap', icon: <FaBootstrap className="text-purple-500" /> },
   { name: 'JavaScript', icon: <FaJs className="text-yellow-400" /> },
   { name: 'React.js', icon: <FaReact className="text-cyan-400" /> },
-  { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-sky-300" /> },
   { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
   { name: 'Express.js', icon: <SiExpress className="text-gray-300" /> },
-  { name: 'Java', icon: <FaJava className="text-red-500" /> },
   { name: 'MySQL', icon: <SiMysql className="text-blue-300" /> },
-  { name: 'Bootstrap', icon: <FaBootstrap className="text-purple-500" /> },
   { name: 'MongoDB', icon: <SiMongodb className="text-green-400" /> },
-  { name: 'Next.js', icon: <SiNextdotjs className="text-white" /> },
+  // Not needed yet
+  // { name: 'Next.js', icon: <SiNextdotjs className="text-white" /> },
 
 ];
 
@@ -49,7 +50,7 @@ const Skills = () => {
         >
           Skills & Tools
         </motion.h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
           {skills.map((skill, index) => (
             <motion.div
               key={index}

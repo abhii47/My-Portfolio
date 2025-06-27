@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import ReactTypingEffect from 'react-typing-effect';
+import { SiLeetcode } from "react-icons/si";
+import { Typewriter } from 'react-simple-typewriter';
 
 const Hero = () => {
   return (
@@ -8,25 +9,18 @@ const Hero = () => {
       <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
         Hi, I'm <span className="text-sky-400">Abhi Rajpurohit</span>
       </h1>
-      <h2 className="text-xl md:text-2xl text-slate-300 mb-6">
-        Frontend Developer | MCA Student | Web Developer
-
-        {/* it is use to add typing effect on text */}
-
-        {/* <ReactTypingEffect>
-          text={[
-              'Frontend Developer',
-              'MCA Student',
-              'Web Developer',
-          ]}
-          speed={100}
-          eraseSpeed={50}
-          typingDelay={500}
-          eraseDelay={2000}
-          cursorRenderer={(cursor)=>(
-            <span className='text-sky-400'>{cursor}</span>
-          )}
-        </ReactTypingEffect> */}
+      <h2 className="text-xl md:text-3xl text-slate-300 mb-6">
+          <span className="text-zinc-100">
+            <Typewriter
+              words={['Frontend Developer', 'MCA Student', 'Web Developer']}
+              loop={0}
+              cursor
+              // cursorStyle="_"
+              typeSpeed={100}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </span>
       </h2>
 
       <div className="flex gap-4 mb-6">
@@ -34,23 +28,27 @@ const Hero = () => {
           href="https://github.com/abhii47"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-sky-400 text-2xl"
         >
-          <FaGithub />
+          <FaGithub className="text-zinc-200 hover:text-zinc-50 text-2xl" />
         </a>
         <a
           href="https://linkedin.com/in/abhishek-singh-rajpurohit"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-sky-400 text-2xl"
         >
-          <FaLinkedin />
+          <FaLinkedin className="text-sky-600 hover:text-sky-400 text-2xl" />
+        </a>
+        <a
+          href="https://leetcode.com/u/mr_abhii47/"
+          target="_blank"
+        >
+          <SiLeetcode className="text-yellow-500 hover:text-yellow-400 text-2xl" />
         </a>
         <a
           href="mailto:abhishekrajpurohit@gmail.com"
-          className="text-white hover:text-sky-400 text-2xl"
+          target="_blank"
         >
-          <FaEnvelope />
+          <FaEnvelope className="text-red-400 hover:text-red-300 text-2xl"/>
         </a>
       </div>
 
@@ -58,8 +56,8 @@ const Hero = () => {
 {/* download my resume Button Created */}
       <div className="flex gap-4">
         <a
-          href="/assets/Frontend-resume-abhishek.pdf"
-          className="bg-sky-300 text-white px-6 py-2 rounded-full hover:bg-sky-200 transition"
+          href="../public/assets/abhi-web-developer.pdf"
+          className="bg-zinc-50 text-white px-6 py-2 rounded-full hover:bg-zinc-300 transition"
           download
         >
           Download Resume
@@ -68,7 +66,7 @@ const Hero = () => {
 {/* contact button created here */}
         <a
           href="#contact"
-          className="border border-white px-6 py-2 rounded-full text-white hover:bg-white hover:text-slate-900 transition"
+          className="border border-white px-6 py-2 rounded-full text-white hover:bg-zinc-300 hover:text-slate-900 transition"
         >
           Contact Me
         </a>

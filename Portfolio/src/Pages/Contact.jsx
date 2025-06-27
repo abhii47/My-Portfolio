@@ -114,7 +114,7 @@ const Contact = () => {
           <motion.div className="mt-6" variants={fadeUp} custom={6}>
             <button
               type="submit"
-              className="w-full py-3 bg-sky-400 text-white font-semibold rounded-md hover:bg-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500"
+              className="w-full py-3 bg-sky-600 text-white font-semibold rounded-md hover:bg-sky-500"
             >
               Send Message
             </button>
